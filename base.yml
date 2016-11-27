@@ -59,23 +59,6 @@
     # - {role: unrarx, tags: unrarx, when: "ansible_os_family == 'Darwin'"}
     - {role: usb-overdrive, tags: usb-overdrive, when: "ansible_os_family == 'Darwin'"}
     - {role: vlc, tags: vlc}
-    
-    ## Personal Changes
-    
-    # Working directory    
-    - name: Create Projects dir
-      file: path=~/Projects state=directory mode=0700
-      
-    - name: Create Blogpost dir
-      file: path=~/Blogposts state=directory mode=0700
 
-    # Symlinks 
-    # TODO: Symlinks for external devices (SD Card) with generic card name 
-    #   - Documents
-    #   - Movies
-    #   - Music
-    #   - Photos
-    
-    
-    
-     
+    # Personal
+    - {role: d2home, tags: d2home}
