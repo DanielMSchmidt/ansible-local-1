@@ -2,8 +2,8 @@
 # Change vars according to your setup
 
 # Global
-user: "daniel"
+user: "danielschmidt"
 
 # Git
-git_name: "Daniel Banck"
-git_email: "daniel@dbanck.de"
+git_name: "Daniel Schmidt"
+git_email: "danielmschmidt92@gmail.com"
