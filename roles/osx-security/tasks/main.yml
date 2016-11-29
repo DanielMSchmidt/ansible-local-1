@@ -64,7 +64,7 @@
 
 - name: Disable spotlight suggestions
   script: fix-macosx.py
-
+  
 - name: Disable Multicast advertisement
   sudo: True
   copy: src=com.apple.mDNSResponder.plist dest=/System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
