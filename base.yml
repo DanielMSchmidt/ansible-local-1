@@ -5,7 +5,7 @@
   roles:
     - {role: cask, tags: cask, when: "ansible_os_family == 'Darwin'"}
     ## Basics
-    - {role: fish, tags: fish}
+    
     - {role: git, tags: git}
     # - {role: home, tags: home}
     - {role: iterm, tags: iterm, when: "ansible_os_family == 'Darwin'"}
@@ -62,3 +62,4 @@
 
     # Personal
     - {role: d2home, tags: d2home}
+    - {role: fish, tags: fish}
