@@ -38,6 +38,7 @@
     - {role: caffeine, tags: caffeine, when: "ansible_os_family == 'Darwin'"}
     # - {role: calibre, tags: calibre}
     - {role: dash, tags: dash, when: "ansible_os_family == 'Darwin'"}
+    # TODO: add role that downlods dropbox "Datensicherung"-Package and initializes it
     - {role: dropbox, tags: dropbox}
     # - {role: filezilla, tags: filezilla}
     - {role: firefox, tags: firefox}

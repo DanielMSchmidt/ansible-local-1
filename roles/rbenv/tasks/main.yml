@@ -1,0 +1,6 @@
+---
+  - name: Install rbenv (OS X)
+    homebrew: name=rbenv state=present
+    when: ansible_os_family == 'Darwin'
+    
+  # - name: Add rbenv to path

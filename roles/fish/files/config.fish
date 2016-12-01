@@ -9,7 +9,7 @@ set -x LANG en_US.UTF-8
 
 set -x GOPATH ~/Projects/go
 
-set -x PATH /usr/local/sbin ~/.npm/bin
+set -x PATH /usr/local/sbin
 
 set -x EDITOR /usr/local/bin/vim
 
